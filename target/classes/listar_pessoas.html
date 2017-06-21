@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Listar Pessoas:</title>
+<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span><span
+								class="icon-bar"></span><span class="icon-bar"></span><span
+								class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="http://localhost:8080/cep/home.html">Qual
+							é o CEP ? </a>
+					</div>
+
+					<div class="collapse navbar-collapse"
+						id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a href="#" class="dropdown-toggle"
+								data-toggle="dropdown">O que fazer<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a
+										href="http://localhost:8080/cep/listar_logradouros.html">Listar
+											Logradouros</a></li>
+									<li><a
+										href="http://localhost:8080/cep/buscar_logradouro_nome.html">Buscar
+											Logradouro/CEP</a></li>
+									<li><a
+										href="http://localhost:8080/cep/listar_pessoas.html">Listar
+											Pessoas</a></li>
+									<li><a
+										href="http://localhost:8080/cep/inserir_pessoa.html">Inserir
+											Pessoa</a></li>
+									<li><a
+										href="http://localhost:8080/cep/remover_pessoa.html">Remover
+											Pessoa</a></li>
+									<li><a
+										href="http://localhost:8080/cep/atualizar_pessoa.html">Atualizar
+											Pessoa</a></li>
+								</ul></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"> Beta </a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle"
+								data-toggle="dropdown">Olá, Whalyf Viana!<strong
+									class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Log Out</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+		</div>
+	</div>
+
+	<form action="listarPessoas" method="POST">
+
+		<div class="col-sm-offset-0 col-sm-8">
+			<h1>Deseja Listar as Pessoas Cadastradas Para Removê-las ou
+				Atualizá-las ?</h1>
+			<div class="form-group">
+				<div class="col-sm-offset-0 col-sm-8">
+					<button type="submit" class="btn btn-info">Listá-las</button>
+					<br /> <br /> 
+				</div>
+			</div>
+		</div>
+	</form>
+	<script src="resources/js/jquery.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/scripts.js"></script>
+</body>
+</html>
+
+
+
+
